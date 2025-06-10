@@ -10,6 +10,8 @@
 
 (function () {
     "use strict";
+    console.log("[Userscript] Gofile Downloader 启动");
+
     const appdata = unsafeWindow.appdata;
     if (!appdata) {
         console.warn("[Userscript] 无法找到 appdata");
